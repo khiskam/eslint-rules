@@ -9,7 +9,6 @@
   "license": "ISC",
   "packageManager": "pnpm@10.28.1",
   "dependencies": {
-    "@eslint/js": "^10.0.1",
     "@eslint/json": "^2.0.0",
     "@stylistic/eslint-plugin": "^5.10.0",
     "eslint-import-resolver-typescript": "^4.4.5",
@@ -26,5 +25,8 @@
     "typescript-eslint": "^8.61.0",
     "@stylistic/stylelint-plugin": "^5.2.0",
     "eslint": "^10.5.0"
+  },
+  "peerDependencies": {
+    "@eslint/js": "^10.0.1"
   }
 }
