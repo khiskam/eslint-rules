@@ -7,7 +7,7 @@ settings:
 importers:
 
   .:
-    devDependencies:
+    dependencies:
       '@eslint/js':
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.5.0)
@@ -17,12 +17,6 @@ importers:
       '@stylistic/eslint-plugin':
         specifier: ^5.10.0
         version: 5.10.0(eslint@10.5.0)
-      '@stylistic/stylelint-plugin':
-        specifier: ^5.2.0
-        version: 5.2.0(stylelint@17.13.0(typescript@6.0.3))
-      eslint:
-        specifier: ^10.5.0
-        version: 10.5.0
       eslint-import-resolver-typescript:
         specifier: ^4.4.5
         version: 4.4.5(eslint-plugin-import-x@4.16.2(@typescript-eslint/utils@8.61.0(eslint@10.5.0)(typescript@6.0.3))(eslint@10.5.0))(eslint@10.5.0)
@@ -59,6 +53,13 @@ importers:
       typescript-eslint:
         specifier: ^8.61.0
         version: 8.61.0(eslint@10.5.0)(typescript@6.0.3)
+    devDependencies:
+      '@stylistic/stylelint-plugin':
+        specifier: ^5.2.0
+        version: 5.2.0(stylelint@17.13.0(typescript@6.0.3))
+      eslint:
+        specifier: ^10.5.0
+        version: 10.5.0
 
 packages:
 
